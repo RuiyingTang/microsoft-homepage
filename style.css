@@ -1,0 +1,128 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+body {
+  font-family: Helvetica, sans-serif;
+}
+.leading-1 {
+  font-size: 3rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 1400px;
+  margin: 30px auto;
+}
+.btn-white {
+  color: black;
+  background-color: white;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+.btn-black {
+  color: white;
+  background-color: black;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+.btn-blue {
+  color: blue;
+  text-transform: uppercase;
+}
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
+
+.mySlides {
+  display: none;
+}
+/* Nav Bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+.logo-img {
+  max-width: 50%;
+}
+.profile img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+}
+.navigation-item a {
+  font-size: 0.8rem;
+  color: black;
+  padding: 10px;
+}
+
+/* Showcase */
+.showcase-img {
+  width: 100%;
+  position: relative;
+}
+.showcase-text {
+  height: 100%;
+  position: absolute;
+  top: 40%;
+  left: 100px;
+  right: 0;
+  bottom: 0;
+  line-height: 3rem;
+}
+/* Presentation */
+.presentation {
+  display: flex;
+  justify-content: center;
+}
+.product {
+  padding: 20px;
+  flex: 1 0 25%;
+  width: 100%;
+  line-height: 2rem;
+}
+.product-img {
+  display: block;
+  width: 100%;
+  padding-bottom: 20px;
+}
+/* presentation-Xbox */
+.xbox-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.presentation-xbox {
+  position: relative;
+}
+.presentation-xbox-text {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  line-height: 3rem;
+}
