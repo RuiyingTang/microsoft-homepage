@@ -14,6 +14,7 @@ body {
   font-size: 3rem;
 }
 a {
+  color: black;
   text-decoration: none;
 }
 a:hover {
@@ -74,7 +75,6 @@ a:hover {
 }
 .navigation-item a {
   font-size: 0.8rem;
-  color: black;
   padding: 10px;
 }
 
@@ -99,7 +99,7 @@ a:hover {
 }
 .product {
   padding: 20px;
-  flex: 1 0 25%;
+  flex: 0 1 25%;
   width: 100%;
   line-height: 2rem;
 }
@@ -108,21 +108,38 @@ a:hover {
   width: 100%;
   padding-bottom: 20px;
 }
-/* presentation-Xbox */
+/* Highlight*/
 .xbox-img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.presentation-xbox {
+.highlight {
   position: relative;
 }
-.presentation-xbox-text {
-  height: 100%;
+.highlight-text {
   width: 100%;
   text-align: center;
   position: absolute;
   top: 70%;
   line-height: 3rem;
+}
+/* Footer */
+.mainfooter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-column {
+  flex: 0 1 auto;
+  line-height: 2rem;
+}
+.column-list {
+  list-style: none;
+  padding-left: 0;
+}
+.column-list a {
+  font-size: 0.7rem;
+  color: black;
 }
